@@ -15,4 +15,13 @@ $secondary: #FA5959;
     background: hsl(231deg, 69%, 60%);
 }
 
+
+.features .nav-tabs .nav-link {border: none !important;}
+.features .nav-link.active {
+    border: none;
+    border-bottom: 3px solid red !important;
+}
+.features .nav-link {border-bottom: 4px solid lightgray !important;}
+
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

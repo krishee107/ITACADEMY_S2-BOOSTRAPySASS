@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/krishee107/ITACADEMY_S2-BOOTSTRAPySASS#readme",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3"
   }
 }

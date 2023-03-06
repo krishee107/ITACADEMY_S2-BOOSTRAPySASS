@@ -1,0 +1,23 @@
+{
+  "name": "s2.-boostrap-i-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishee107/ITACADEMY_S2-BOOTSTRAPySASS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishee107/ITACADEMY_S2-BOOTSTRAPySASS/issues"
+  },
+  "homepage": "https://github.com/krishee107/ITACADEMY_S2-BOOTSTRAPySASS#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

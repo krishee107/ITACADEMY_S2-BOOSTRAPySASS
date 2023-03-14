@@ -1,10 +1,16 @@
 $primary: #5265E1;
 $secondary: #FA5959;
 
+html, body{
+    overflow-x: hidden;
+}
+
 .hero{
     position: relative;
     z-index: 3;
 }
+
+
 .sombra{
     top: 35%;
     right: 0;
@@ -23,5 +29,16 @@ $secondary: #FA5959;
 }
 .features .nav-link {border-bottom: 4px solid lightgray !important;}
 
+.features p, .download p{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.cards{
+    height: 600px;
+}
+.card hr{
+    border-top: dotted 9px;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

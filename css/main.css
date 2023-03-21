@@ -36,11 +36,20 @@ html, body {
 }
 
 .cards {
-  height: 600px;
+  min-height: 600px;
 }
 
 .card hr {
   border-top: dotted 9px;
+}
+
+.accordion button {
+  font-weight: bold;
+}
+
+.accordion button::after, .accordion-button::after {
+  color: #5265E1 !important;
+  font-weight: bold;
 }
 
 /*!

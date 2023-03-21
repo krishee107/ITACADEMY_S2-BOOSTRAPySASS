@@ -34,11 +34,19 @@ html, body{
     margin: 0 auto;
 }
 
-.cards{
-    height: 600px;
+.cards {
+    min-height: 600px;
 }
 .card hr{
     border-top: dotted 9px;
+}
+
+.accordion button{
+    font-weight: bold;
+}
+.accordion button::after, .accordion-button::after{
+    color: $primary !important;
+    font-weight: bold;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

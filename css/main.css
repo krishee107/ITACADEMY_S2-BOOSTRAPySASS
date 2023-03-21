@@ -63,6 +63,10 @@ h5, .h5 {
   min-width: 300px;
 }
 
+footer {
+  background-color: #242946;
+}
+
 /*!
    * Bootstrap  v5.2.3 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors

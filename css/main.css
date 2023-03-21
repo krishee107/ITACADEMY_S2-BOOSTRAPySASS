@@ -52,6 +52,17 @@ html, body {
   font-weight: bold;
 }
 
+h5, .h5 {
+  font-family: monospace;
+  letter-spacing: 3px;
+  font-size: 15px !important;
+  font-weight: bold;
+}
+
+#validationCustom {
+  min-width: 300px;
+}
+
 /*!
    * Bootstrap  v5.2.3 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors

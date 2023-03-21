@@ -6,9 +6,28 @@ html, body {
   font-weight: bold;
 }
 
+.nav-link:hover {
+  color: #FA5959 !important;
+  cursor: pointer;
+}
+
+.navegador button:hover {
+  background-color: white;
+  color: #FA5959 !important;
+}
+
 .hero {
   position: relative;
   z-index: 3;
+}
+
+.btn.get-chrome:hover {
+  color: #5265E1 !important;
+}
+
+.btn.get-firefox:hover {
+  color: black !important;
+  border-color: black;
 }
 
 .sombra {
@@ -65,6 +84,20 @@ h5, .h5 {
 
 #validationCustom {
   min-width: 300px;
+}
+
+input:hover {
+  background-color: white !important;
+  color: #FA5959 !important;
+}
+
+.red i {
+  font-size: 19px;
+}
+
+.red i:hover {
+  cursor: pointer;
+  color: #FA5959 !important;
 }
 
 footer {

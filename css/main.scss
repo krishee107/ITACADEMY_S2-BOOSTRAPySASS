@@ -8,10 +8,26 @@ html, body{
 .nav-item{
     font-weight: bold;
 }
+.nav-link:hover{
+    color: $secondary !important;
+    cursor: pointer;
+}
+
+.navegador button:hover {
+    background-color: white;
+    color: $secondary !important;
+}
 
 .hero{
     position: relative;
     z-index: 3;
+}
+.btn.get-chrome:hover{
+    color: $primary !important;
+}
+.btn.get-firefox:hover{
+    color: black !important;
+    border-color: black;
 }
 
 
@@ -62,6 +78,18 @@ h5{
 
 #validationCustom{
     min-width: 300px;
+}
+input:hover{
+    background-color: white !important;
+    color: $secondary !important;
+}
+
+.red i {
+    font-size: 19px;
+}
+.red i:hover{
+    cursor: pointer;
+    color: $secondary !important;
 }
 
 footer{
